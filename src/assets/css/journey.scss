@@ -1,0 +1,38 @@
+
+.journey{
+    .itinerario{
+        display: flex;
+        justify-content: center;
+        color: white;
+
+        .MuiSwitch-track .css-1yjjitx-MuiSwitch-track{
+            color: blue !important;
+        }
+    }
+}
+
+.timeline{
+    margin-top: 10px;
+    overflow: auto;
+    height: 150px;
+
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    }
+     
+    ::-webkit-scrollbar-thumb {
+      background-color: darkgrey;
+      outline: 1px solid slategrey;
+    }
+    
+    scrollbar-color: black;
+
+    .MuiTypography-root{
+        color: white !important;
+        
+    }
+    
+    
+
+}
+

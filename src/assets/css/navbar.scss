@@ -1,0 +1,13 @@
+.MuiPaper-root{
+    background-color: black !important;
+    filter: grayscale(100%) opacity(90%) contrast(90%);
+
+    .MuiSvgIcon-root{
+        color: white;
+    }
+
+    .MuiTypography-root{
+        color: white;
+    }
+    
+}
